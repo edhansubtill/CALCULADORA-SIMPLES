@@ -9,8 +9,8 @@ function appendToDisplay(value) {
 }
 
 function clearDisplay() {
-    currentlnput = " ";
-    display.value = " ";
+    currentlnput = "";
+    display.value = "";
 }
 
 function clearDisplay() {
