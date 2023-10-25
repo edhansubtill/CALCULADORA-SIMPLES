@@ -5,9 +5,11 @@ document.getElementById
 ('display');
 let currentlnput = "";
 
-function appendToDisplay(value) {
+function 
+appendToDisplay(value) {
     currentlnput += value;
-    display.value = currentlnput;
+    display.value = 
+currentlnput;
 }
 
 function clearDisplay() {
