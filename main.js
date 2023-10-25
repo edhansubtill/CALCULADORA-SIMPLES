@@ -19,11 +19,12 @@ function clearDisplay() {
 
 function calculateResult() 
 {
-     try {
+ try {
+   currentlnput =
 eval(currentlnput);
-         display.value = 
+   display.value = 
 currentlnput;
-     } catch (error) {
-       display.value = "Erro";
-     }
+   } catch (error) {
+     display.value = "Erro";
+   }
 }
