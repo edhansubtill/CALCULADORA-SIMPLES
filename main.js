@@ -1,6 +1,8 @@
 // main.js
 
-let display =document.getElementById ('display');
+let display =
+document.getElementById 
+('display');
 let currentlnput = "";
 
 function appendToDisplay(value) {
@@ -13,10 +15,12 @@ function clearDisplay() {
     display.value = "";
 }
 
-function clearDisplay() {
+function calculateResult() 
+{
      try {
 eval(currentlnput);
-         display.value = currentlnput;
+         display.value = 
+         currentlnput;
      } catch (error) {
          display.value = "Erro";
      }
