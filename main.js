@@ -15,7 +15,7 @@ function clearDisplay() {
 
 function clearDisplay() {
      try {
-         currentlnput = eval(currentlnput);
+eval(currentlnput);
          display.value = currentlnput;
      } catch (error) {
          display.value = "Erro";
