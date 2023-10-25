@@ -18,6 +18,6 @@ function clearDisplay() {
          currentlnput = eval(currentlnput);
          display.value = currentlnput;
      } catch (error) {
-         display.value = "Erro":
+         display.value = "Erro";
      }
 }
