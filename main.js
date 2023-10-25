@@ -20,8 +20,8 @@ function calculateResult()
      try {
 eval(currentlnput);
          display.value = 
-         currentlnput;
+currentlnput;
      } catch (error) {
-         display.value = "Erro";
+       display.value = "Erro";
      }
 }
